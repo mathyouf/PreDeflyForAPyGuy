@@ -14,6 +14,8 @@ I predict my initial coding will involve in this order:
 
 I expect this to require some computer vision, the only one I know of is OpenCV, but I may use simpler methods than state of the art Computer Vision offers, since the visual cues in the game are fairly uniform and predictable.
 
+![DeflyImage](images/HoughCircles.PNG)
+
 3) Once this is all done, i'd be interested in using this framework to do Reinforcement Learning with the sentdex youtube tutorial (https://www.youtube.com/watch?v=yMk_XtIEzH8) as my initial guide.
 
 To Run:
