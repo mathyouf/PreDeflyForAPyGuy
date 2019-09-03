@@ -1,0 +1,3 @@
+conda install pillow imutils
+conda install pyautogui
+conda install opencv-python

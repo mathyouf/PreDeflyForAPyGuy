@@ -1,5 +1,4 @@
-import os, pygame, math, random
-from pygame.locals import *
+import os, math, random
 from settings import Settings
 from game import Game
 

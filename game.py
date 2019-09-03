@@ -1,6 +1,8 @@
-import os, pygame
+import os
 import keyboard
 from settings import Settings
+from processGameState import gameState
+
 
 class Game():
     def __init__(self):
@@ -10,8 +12,7 @@ class Game():
         x = 1
         try:
             while True:
-                x = x+1
-                print(x)
+                gameState().takeScreenShot()
         except KeyboardInterrupt:
             pass
                 
