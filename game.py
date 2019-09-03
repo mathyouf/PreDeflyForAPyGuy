@@ -9,10 +9,8 @@ class Game():
         pass
 
     def loop(self):
-        x = 1
         try:
-            while True:
-                gameState().takeScreenShot()
+            gameState().takeScreenShot()
         except KeyboardInterrupt:
             pass
                 
